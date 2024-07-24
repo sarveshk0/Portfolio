@@ -34,7 +34,7 @@ I am excited about the opportunities to apply my skills in dynamic and challengi
 
           <div className="right">
                 <div className="glow-box">
-                   <div className="imgbox"><img src='/images/photo.png.jpg' width={300} alt="img" 
+                  <div className="imgbox"><img src='/images/photo.png.jpg' width={280} style={{borderRadius:'50%'}} alt="img" 
                     /></div> 
                  
                 </div>
