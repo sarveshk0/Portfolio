@@ -19,7 +19,7 @@ padding-right: 80px;
 
 .right{
     margin-top: 30px ;
-    margin-right: 70px;
+    margin-right: 78px;
   
 }
 
@@ -40,21 +40,24 @@ padding-right: 80px;
 
 
     0% {
-      border-color: rgba(7, 100, 230, 0.521);
-      box-shadow: 0 0 20px rgba(37, 37, 192, 0.1);
+      border-color: rgba(230, 7, 118, 0.521);
+      box-shadow: 0 0 50px rgba(216, 8, 56, 0.952);
     }
     50% {
       border-color: rgb(13, 20, 236);
-      box-shadow: 0 0 40px rgb(8, 58, 223);
+      box-shadow: 0 0 100px rgb(8, 58, 223);
     }
     100% {
-      border-color: rgba(19, 9, 213, 0.1);
-      box-shadow: 0 0 80px rgba(63, 28, 219);
+      border-color: rgba(138, 225, 7, 0.919);
+      box-shadow: 0 0 200px rgb(28, 219, 54);
     }
   }
 
+
   img{ 
     border-radius: 10px;
+
+
   
   
   }
