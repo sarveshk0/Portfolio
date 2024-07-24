@@ -1,0 +1,46 @@
+/* form {
+ padding: auto;
+ padding-inline: 200px  auto;
+ } */
+
+
+
+
+ .content{
+   display: flex;
+   gap:20px;
+   /* align-items: center; */
+   justify-content: center;
+   justify-self: center;
+ }
+ @media (max-width: 768px) {
+   .content  {
+       display: flex;
+       flex-direction: column;
+   }
+}
+ @media (max-width: 480px) {
+   .content  {
+       display: flex;
+       flex-direction: column;
+   }
+}
+
+ .contactbox{
+    margin-top: 200px;
+ }
+ .headingContact{
+     font-size: 40px;
+    font-style: italic;
+    font-weight: bold;
+   
+    margin: 20px;
+ } 
+ .contact{
+    display: flex;
+    align-items: center; 
+    justify-content: space-evenly;
+    align-self: baseline;
+    gap: 20px;
+    
+ }

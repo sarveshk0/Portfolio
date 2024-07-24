@@ -1,0 +1,75 @@
+.hero{
+     margin-top: 40px;
+    display: flex;
+    flex: content;
+   justify-self: center;
+   align-items:center;
+   justify-content: center;
+   
+   
+}
+
+
+.desc{
+padding-right: 80px;
+ line-height: 2;
+ color: white;
+}
+
+
+.right{
+    margin-top: 30px ;
+    margin-right: 70px;
+  
+}
+
+
+.glow-box {
+    width: 320px;
+  
+    background-color: #333;
+    margin: 50px auto;
+    border: 5px solid;
+    border-color: transparent;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(85, 54, 208, 0.5);
+    animation: glow 8s ease infinite;
+  }
+
+  @keyframes glow {
+    
+
+    0% {
+      border-color: rgba(7, 100, 230, 0.521);
+      box-shadow: 0 0 20px rgba(37, 37, 192, 0.1);
+    }
+    50% {
+      border-color: rgb(13, 20, 236);
+      box-shadow: 0 0 40px rgb(8, 58, 223);
+    }
+    100% {
+      border-color: rgba(19, 9, 213, 0.1);
+      box-shadow: 0 0 80px rgba(63, 28, 219);
+    }
+  }
+
+  img{ 
+    border-radius: 10px;
+  
+  
+  }
+
+  img:hover{
+    scale: 2px;
+  }
+
+  button{
+    border-radius: 5px;
+    
+     margin-left: 30px;
+       color: black;
+       padding: 5px;
+  }
+
+
+
