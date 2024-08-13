@@ -21,7 +21,7 @@ const ProjectCards = () => {
     name:"Memories:Blogging Web App",
     Description:"•	Developed a full-featured blogging web application named Memories that allows users to create, manage, and share blog posts.",
     image:"/images/memories.jpg",
-    link:"https://client-755djkaac-sarveshk0s-projects.vercel.app/posts",
+    link:"https://memoriesweb-sarveshk0s-projects.vercel.app/posts",
   },
 
 ]
